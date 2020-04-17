@@ -22,7 +22,7 @@ public class QueryAnimalServlet extends HttpServlet {
         //2、调用模型层代码，处理请求
         AnimalService service=new AnimalService();
         List<Animal> animals=null;
-        System.out.println("333");
+        System.out.println("66666");
         try {
             animals=service.queryAllAnimal();
         } catch (SQLException e) {
