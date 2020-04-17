@@ -23,6 +23,7 @@ public class QueryAnimalServlet extends HttpServlet {
         AnimalService service=new AnimalService();
         List<Animal> animals=null;
         System.out.println("66666");
+        System.out.println("111");
         try {
             animals=service.queryAllAnimal();
         } catch (SQLException e) {
